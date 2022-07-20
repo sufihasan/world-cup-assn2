@@ -25,6 +25,7 @@
 
     width: 50%;
     color: whitesmoke;
+
 }
 
 .top-ban-img {
@@ -36,4 +37,72 @@
 
     margin-left: 5vw;
     margin-top: 2vw;
+}
+
+
+/*------------ 
+main part style 
+------------- */
+
+.main-nav-blog {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* width: 80%; */
+}
+
+.nav-blog {
+
+    display: flex;
+    margin-top: 130px;
+    width: 80%;
+    /* justify-content: center; */
+    border: 5px solid green;
+
+
+}
+
+.nav-uab-parent {
+
+    width: 30%;
+}
+
+.nav-uab {
+
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    color: white;
+    width: 23vw;
+    height: 23vw;
+
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    position: absolute;
+}
+
+.nav-uab a {
+
+    text-decoration: none;
+    margin-top: 10px;
+    background-color: whitesmoke;
+    width: 50%;
+    position: relative;
+}
+
+.nav-blog .blogs {
+
+    width: 70%;
+    /* margin-left: 1.5em; */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    border: 2px solid red;
+
+}
+
+.blog-article img {
+
+    width: 18vw;
+    height: 12vw;
 }
