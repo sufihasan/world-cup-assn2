@@ -223,13 +223,6 @@ main part style
  --------------  */
 
 
-/* .foot {
-
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-} */
 
 .foot-child {
 
@@ -284,4 +277,23 @@ main part style
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
+}
+
+/* social link part in footer  */
+.social-link {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 3vw;
+}
+
+.social-link-child {
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 50vw;
+    background-color: rgb(221, 206, 206);
+    border-radius: 1vw;
+    padding: 2vw 0vw;
+    font-size: 3vw;
 }
