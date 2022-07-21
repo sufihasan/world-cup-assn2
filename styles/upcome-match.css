@@ -697,15 +697,6 @@ main part style
 
     }
 
-    a#off {
-        visibility: visible;
-        background-color: tomato;
-        height: 30px;
-        width: 100px;
-        text-align: center;
-        border-radius: 10px;
-        text-decoration: none;
-        padding-top: 5px;
-    }
+
 
 }
